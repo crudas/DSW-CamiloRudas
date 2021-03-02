@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Flex Box and CSS Grid</title>
+    <link rel="stylesheet" type="text/css" href="css/design.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="row">
+            <div class="leftcolumn2">
+                <img src="imag/flexVsGrid.png" alt="Flex Vs Grid" style="width:100px;" />
+            </div>
+            <div class="rightcolumn2">
+                <h1>Flex Box <br /> CSS Grid</h1>
+            </div>
+        </div>
+        <div class="row" style="background-color: #000;">
+            <nav>
+                <ul class="nav">
+                    <li><a href="">Inicio</a></li>
+                    <li>
+                        <a href="">Temas</a>
+                        <ul>
+                            <li><a href="">Flex Box</a></li>
+                            <li><a href="">CSS Grid</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Recursos digitales</a>
+                        <ul>
+                            <li><a href="">Recurso 1</a></li>
+                            <li><a href="">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Aprendizaje</a>
+                        <ul>
+                            <li><a href="">Actividad 1</a></li>
+                            <li><a href="">Actividad 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Acerca de</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <article class="row">
+                    <div class="leftcolumn2">
+                        <h2>Flex Box</h2>
+                        <p>
+                            También es conocido como Modelo Flexible y nos va a servir para que una página pueda trabajar con diferentes dispositivos
+                            ya que al cambiar las dimensiones y hasta su orientación, nos va a permitir acomodar los diferentes elementos. A esto vamos a
+                            llamar diseño adaptativo. Lo que busca es cambiar el orden de los elementos sin importar el orden del código HTML.
+                            Para esto la lógica que utiliza este modelo o estandar es rellenar los espacios que quedan libres para esto se manejaran dos
+                            conceptos importantes que son:<ol><li>flex container</li><li>flex item</li></ol>
+
+                            Para esto vamos a tener en cuenta que ahora todo se manejara por un eje principal (main axis) ... <a href="#">Seguir leyendo</a>
+                            <br />Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. RA-MA Editorial. (Pág. 118-127) Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=118
+                        </p>
+                    </div>
+                    <div class="rightcolumn2">
+                        <img src="imag/FlexBox.jpg" alt="Flex Box" style="width:350px;" />
+                    </div>
+                </article>
+            </div>
+            <div class="card">
+                <article class="row">
+                    <div class="leftcolumn2"><img src="imag/Grid.jpg" alt="CSS Grid" style="width:350px;" /></div>
+                    <div class="rightcolumn2">
+                        <h2>CSS Grid</h2>
+                        <p>
+                            Recordemos que CSS es conocido como Hoja de Estilo en Cascada (Cascading Sheet Style) para esto lo que
+                            hace es crear una especie de rejilla, por tal motivo vamos a disponer de espacios tanto verticales y horizontales.
+                            Por tal motivo es que aqui vamos a tener dos contenedores, la rejilla y elemento. Una de sus ventajas
+                            es que estas rejillas se pueden ajustar automáticamente y la frecuencia con la que se debe repetir el esquema para esto
+                            debemos tener en cuenta un concepto que vamos a llamar media Query.... <a href="#">Seguir leyendo</a>
+                            <br />Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. RA-MA Editorial. (Pág. 128-135) Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=118
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <section>
+                    <h3>Proposito Sitio</h3>
+                    <p>
+                        Recordemos que el proposito de este sitio es crear un repositorio de conocimiento, donde podremos
+                        aprender sobre lo que es Flex data y CSS Grid, temas muy importantes ya que ayudaran a que nuestros
+                        sitios Web mejore su visual y el cual nos aporta caracteristicas para poder visualizar en cualquier
+                        dispositivo, ya que nos permiten crear diseños dinámicos.
+                    </p>
+                </section>
+            </div>
+            <div class="card">
+                <h3>Acerca de</h3>
+                <p>Soy un estudiante de la UNAD de Ingenieria de Sistema el cual entro por homologación.</p>
+            </div>
+            <div class="card">
+                <h2>Mockup</h2>
+                <img src="imag/mockup.JPG" alt="Skype:" style="width:350px;">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <img src="imag/Skype.png" alt="Skype:" style="width:15px;"> kmirugo
+        <img src="imag/Correo.png" alt="Correo:" style="width:15px"> carudasg@unadvirtual.edu.co
+        <img src="imag/Fecha.png" alt="Fecha:" style="width:15px"> 13 Marzo 2021
+    </footer>
+</body>
+</html>
